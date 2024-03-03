@@ -1,0 +1,128 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+*{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.fa-xmark:hover{
+    color: #dc3545;
+}
+.fa-xmark{
+    transition: all 0.3s;
+}
+.btn-open,.btn-open:hover{
+    border: 0;
+    color: #fff;
+
+}
+.nav{
+    position: absolute;
+    left: -235px;
+}
+.list-nav{
+    padding: 0px 120px 0px 20px;
+}
+.inner-nav{
+    right: 900px;
+    height: 100vh;
+    background-color: #414658;
+}    
+
+.inner-nav ul li a ,.inner-nav i{
+    color: white;
+}
+.inner-nav ul li a {
+    font-size:25px; 
+    transition: all 0.3s;
+}
+.inner-nav ul li a:hover{
+    color:#dc3545;
+}
+/* end nav */
+/* start home */
+.carosel{
+    cursor: pointer;
+}
+.bg-redd{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.inner-home{
+    background-color:  rgb(220, 53, 69,0.5);
+}
+.inner-home h1{
+    font-size: 60px;
+}
+/* end home */
+/* start details */
+.details{
+    text-align: center;
+}
+.inner-details h3{
+    color: white;
+    background-color: #e68285;
+}
+.inner-details p{
+    background-color: #cccccc;
+    display: none;
+}
+/* end details */
+/* start duration */
+.duration{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+
+}
+.inner-duration{
+    background-color: rgb(220, 53, 69,0.5);
+    color: white;
+}
+.time{
+    border: #fff 1px solid;
+}
+/* end duration */
+/* start contact */
+.contact h2,h5 ,.area-prag{
+    color: #444444;
+}
+.contact-prag ,.all-icons i{
+    color: #777777;
+}
+.contact-info{
+    font-weight: 600;
+}
+.icon-loc:hover ,.contact-email ,.all-icons i:hover{
+    color: #dc3545;
+}
+.all-icons i{
+    margin-right: 10px;
+    text-align: center;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #a0a0a0;
+    transition: all 0.3;
+}
+.all-icons i:hover{
+    background-color: #dc3545;
+    color: white;
+}
+textarea{
+    height: 200px;
+}
+.btn-redd{
+    color: #fff;
+    background-color: #dc3545;
+    padding: 7px 30px;
+}
+.send:hover{
+    background-color: #be3543;
+    color: #fff;
+
+}
